@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_homepage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:openDrawer="start"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/buyBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/home_buttons"
+
+
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:drawableTop="@drawable/ic_shopping_bag"
+
+        android:textColor="#cbd1cd"
+        android:text="BUY"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/sellBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/home_buttons"
+        android:text="SELL"
+        android:drawableTop="@drawable/ic_rich"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="#cbd1cd"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/accountBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/home_buttons"
+        android:text="MY ACCOUNT"
+        android:drawableTop="@drawable/ic_user"
+        android:textColor="#cbd1cd"
+
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.851" />
+
+    <Button
+        android:id="@+id/aboutBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/home_buttons"
+        android:text="About US"
+        android:textColor="#cbd1cd"
+        android:textSize="20dp"
+        android:drawableTop="@drawable/ic_info"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.851" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="159dp"
+        android:layout_height="26dp"
+        android:text="Welcome, Guest User"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356" />
+</androidx.constraintlayout.widget.ConstraintLayout>

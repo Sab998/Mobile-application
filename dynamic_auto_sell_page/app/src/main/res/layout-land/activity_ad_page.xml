@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdPage">
+
+   <androidx.viewpager.widget.ViewPager
+       android:id="@+id/viewPager"
+       android:layout_width="731dp"
+       android:layout_height="216dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.0" />
+
+   <TextView
+       android:id="@+id/textView6"
+       android:layout_width="337dp"
+       android:layout_height="17dp"
+       android:text="USED CAR"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.55" />
+
+   <TextView
+       android:id="@+id/textView19"
+       android:layout_width="374dp"
+       android:layout_height="35dp"
+       android:text="AUDI A8 3.0 TDI QUATTRO DIESEL AUTO SAT NAV TAN LEATHER 12 MONTHS MOT "
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.643" />
+
+   <TextView
+       android:id="@+id/textView27"
+       android:layout_width="118dp"
+       android:layout_height="24dp"
+       android:text="£2549"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.714" />
+
+   <Button
+       android:id="@+id/button6"
+       android:layout_width="284dp"
+       android:layout_height="55dp"
+       android:background="@drawable/login_button"
+       android:drawableLeft="@drawable/ic_action_email"
+       android:paddingLeft="50dp"
+       android:paddingRight="50dp"
+       android:text="Message Seller"
+
+       android:textColor="#ffffff"
+       android:textSize="18dp"
+       android:textStyle="bold"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.498"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.955" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
